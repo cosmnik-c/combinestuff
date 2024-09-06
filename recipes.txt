@@ -1,0 +1,55 @@
+# format : item1 + item2 + item3 + ... > result1 + result2 +...
+# hashtag at beginning of line to comment
+# case sensitive
+
+fire + water > steam
+fire + earth > lava
+earth + water > mud + clay
+earthquake + ocean > tsunami
+fire + earth + water + air > elements
+elements + water > hydrogen + oxygen
+elements + hydrogen > electron + proton
+elements + oxygen > electron + proton + neutron
+elements + life > dna
+elements + dna > cytosine + adenine + guanine + thymine
+earthquake + earth > mountain
+mountain + mountain > mountain range
+mountain + lava > volcano
+life + water > bacteria
+stone + ocean > sand
+fire + sand > molten glass
+molten glass + water > glass
+glass + sand > hourglass
+glass + glass > glasses
+life + iron > robot + human
+human + stone > tool
+human + iron > tool
+steam + steam > cloud
+cloud + water > raincloud
+cloud + energy > lightning
+elements + lightning > electricity
+elements + electricity > energy
+
+life + earth > plant
+fire + clay > brick
+brick + brick > wall
+metal + energy > electricity
+
+
+lava + water > stone + obsidian + iron
+air + fire > energy
+energy + air > wind
+energy + earth > earthquake
+earth + lava > volcano
+volcano + energy > eruption
+wind + wind > tornado
+energy + wind > tornado
+water + water > pond
+pond + pond > sea
+pond + water > sea
+sea + sea > ocean
+sea + water > ocean
+mud + water > swamp
+swamp + energy > life
+ocean + energy > life + tsunami
+earth + life > plant

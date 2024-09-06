@@ -1,6 +1,5 @@
 
 
-#read recipes (i should comment the code but i barely understand what i made)
 #recipes are seperated by newlines and are in the format item1 + item2 + item3 + ... > result1 + result2 +...
 #for example water + fire > steam
 #use # at beginning of line to comment
@@ -8,8 +7,8 @@ def load_recipe(recipe_file):
     recipes = {}
     for line in recipe_file.read().strip().split('\n'):
         if line.strip() != '':
-            if line.strip()[0] == '#':
-                continue
+            if line.strip()[0] == '#':  #ignore comments
+                continue   
             splitline = line.split('>')
             if len(splitline) == 2:
                 recipe = splitline[0].split('+')
@@ -34,7 +33,7 @@ class Game:
     def __init__(self, recipedict, unlocked, savefilename):
         self.recipes = recipedict
         self.unlocked = unlocked
-        self.savefilename = savefilename
+        self.savefilename = savefilename #save file path
         self.debug = False
         
 
